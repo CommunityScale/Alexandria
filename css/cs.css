@@ -71,6 +71,8 @@ Table of contents
   .two-thirds.column              { width: 65.3333333333%; }
 
   .one-half.column                { width: 48%; }
+  
+  .one-fifth.column               { width: 16.8%; }
 
   /* Offsets */
   .offset-by-one.column,
@@ -187,9 +189,9 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #1EAEDB; }
+  color: #222; }
 a:hover {
-  color: #0FA0CE; }
+  color: #000000; }
 
 
 /* Buttons
