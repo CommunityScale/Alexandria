@@ -1,16 +1,9 @@
-/*
-* Skeleton V2.0.4
-* Copyright 2014, Dave Gamache
-* www.getskeleton.com
-* Free to use under the MIT license.
-* http://www.opensource.org/licenses/mit-license.php
-* 12/29/2014
-*/
+/* CommunityScale LLC 
 
-
-/* Table of contents
+Table of contents
 ––––––––––––––––––––––––––––––––––––––––––––––––––
 - Grid
+- Fonts
 - Base Styles
 - Typography
 - Links
@@ -23,6 +16,7 @@
 - Utilities
 - Clearing
 - Media Queries
+- Colophon
 */
 
 
@@ -112,6 +106,42 @@
 
 }
 
+/* Fonts
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@font-face {
+    font-family: 'roboto';
+    src: url('/css/fonts/roboto-regular.woff2?#iefix') format('woff2'),
+         url('/css/fonts/roboto-regular.woff') format('woff'),
+         url('/css/fonts/roboto-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url('/css/fonts/roboto-light.woff2?#iefix') format('woff2'),
+         url('/css/fonts/roboto-light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url('/css/fonts/roboto-bold.woff2?#iefix') format('woff2'),
+         url('/css/fonts/roboto-bold.woff') format('woff'),
+         url('/css/fonts/roboto-bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url('/css/fonts/roboto-italic.woff2?#iefix') format('woff2'),
+         url('/css/fonts/roboto-italic.woff') format('woff'),
+         url('/css/fonts/roboto-italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
 
 /* Base Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -123,10 +153,9 @@ html {
 body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
-  font-weight: 400;
-  font-family: "Roboto", Arial, sans-serif;
+  font-weight: normal;
+  font-family: "roboto", Arial, sans-serif;
   color: #222; }
-
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -206,8 +235,8 @@ input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
   color: #FFF;
-  background-color: #33C3F0;
-  border-color: #33C3F0; }
+  background-color: #425a70;
+  border-color: #425a70; }
 .button.button-primary:hover,
 button.button-primary:hover,
 input[type="submit"].button-primary:hover,
@@ -219,8 +248,8 @@ input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
   color: #FFF;
-  background-color: #1EAEDB;
-  border-color: #1EAEDB; }
+  background-color: #234361;
+  border-color: #234361; }
 
 
 /* Forms
@@ -266,7 +295,7 @@ input[type="url"]:focus,
 input[type="password"]:focus,
 textarea:focus,
 select:focus {
-  border: 1px solid #33C3F0;
+  border: 1px solid #425a70;
   outline: 0; }
 label,
 legend {
@@ -416,3 +445,13 @@ there.
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
+
+/*
+* Colophon
+* Skeleton V2.0.4
+* Copyright 2014, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 12/29/2014
+*/
