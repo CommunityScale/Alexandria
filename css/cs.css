@@ -22,6 +22,14 @@ Table of contents
 
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+.divider {
+  background-color: #fff2cc; /* Light yellow */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+	
 .container {
   position: relative;
   width: 100%;
@@ -107,6 +115,8 @@ Table of contents
   .offset-by-one-half.columns     { margin-left: 52%; }
 
 }
+
+
 
 /* Fonts
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
