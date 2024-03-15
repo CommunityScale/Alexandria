@@ -53,6 +53,7 @@ Table of contents
   margin-bottom: 20px;
 }
 
+
 .container {
   position: relative;
   width: 100%;
@@ -73,8 +74,8 @@ Table of contents
     padding: 0; }
 }
 
-/* For devices larger than 550px */
-@media (min-width: 550px) {
+/* For devices larger than 700px */
+@media (min-width: 750px) {
   .container {
     width: 80%; }
   .column,
@@ -206,7 +207,7 @@ h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; }
 h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 
 /* Larger than phablet */
-@media (min-width: 550px) {
+@media (min-width: 750px) {
   h1 { font-size: 5.0rem; }
   h2 { font-size: 4.2rem; }
   h3 { font-size: 3.6rem; }
@@ -480,11 +481,8 @@ there.
 @media (min-width: 400px) {}
 
 /* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 550px) {}
-@media (max-width: 550px) {.icon {display: none;}}
-
-/* Larger than tablet */
 @media (min-width: 750px) {}
+@media (max-width: 750px) {.icon {display: none;}}
 
 /* Larger than desktop */
 @media (min-width: 1000px) {}
