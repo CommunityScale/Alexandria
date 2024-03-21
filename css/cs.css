@@ -27,13 +27,12 @@ Table of contents
   position: -webkit-sticky; /* For Safari */
   position: sticky;
   top: 0;
-  background-color: #333; /* Dark background for visibility */
+  background-color: #fff2cc; /* Dark background for visibility */
   padding-top: 10px;
   padding-bottom: 10px;
   margin: 0;
   z-index: 1000; /* Ensure it stays on top of other content */
   width: 100%; /* Full width */
-  color: white; /* Text color */
 }
 
 .divider {
@@ -53,6 +52,9 @@ Table of contents
   margin-bottom: 20px;
 }
 
+.title {
+    display: inline-block; /* Display as inline-block by default */
+}
 
 .container {
   position: relative;
@@ -226,6 +228,19 @@ a {
   color: #222; }
 a:hover {
   color: #000000; }
+
+/* Links in sticky header */
+
+.sticky a {
+  text-decoration: none;
+}
+
+.sticky a:hover {
+  text-decoration: underline;
+}
+
+
+
 
 /* Images
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -483,6 +498,7 @@ there.
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 750px) {}
 @media (max-width: 750px) {.icon {display: none;}}
+@media (max-width: 750px) {.title {display: none;}}
 
 /* Larger than desktop */
 @media (min-width: 1000px) {}
