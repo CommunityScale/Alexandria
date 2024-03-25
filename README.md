@@ -13,7 +13,7 @@ This repository hosts the Alexandria, VA Housing Needs Assessment (HNA) dashboar
 - MIT License for open collaboration
 
 ## Contributing
-We welcome contributions from the community! Instructions on how to contribute can be found on the [contrubiting](/CONTRIBUTING.md) page.
+We welcome contributions from the community! Instructions on how to contribute can be found [here](/CONTRIBUTING.md).
 
 ## Contact
 https://communityscale.io/  
