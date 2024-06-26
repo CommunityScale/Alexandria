@@ -30,8 +30,8 @@ Table of contents
   top: 0;
   background-color: #fff2cc;
   /* Dark background for visibility */
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   margin: 0;
   z-index: 1000;
   /* Ensure it stays on top of other content */
@@ -76,6 +76,54 @@ Table of contents
   width: 100%;
   float: left;
   box-sizing: border-box;
+}
+
+.inline-text {
+  display: flex;
+  align-items: center;
+  margin: 0; /* Remove any default margin */
+  padding: 0; /* Remove any default padding */
+  gap: 5px; /* Add space between all elements */
+  white-space: nowrap; /* Prevent line breaks */
+}
+
+.small-text {
+  font-size: 1.2rem; /* Smaller than the body font size of 1.5em */
+  line-height: 1.2;
+}
+
+.unresponsive {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  gap: 6px; /* Optional: Adds space between the divs */
+  padding-top: 0px; /* Adds 20px padding to the top */
+  padding-right: 0;
+  padding-bottom: 00px
+  padding-left: 0;
+  box-sizing: border-box;
+}
+
+.side-by-side {
+  flex: 1 1 0;
+  padding: 0px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.content-size {
+  padding-top: 0px; /* Adds 20px padding to the top */
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  box-sizing: border-box;
+  flex: 0 0 auto; /* Does not grow or shrink, only as wide as its content */
+}
+
+.fill-space {
+  padding: 0px;
+  box-sizing: border-box;
+  flex: 1 1 auto; /* Fills the remaining space */
 }
 
 /* For devices larger than 400px */
@@ -418,6 +466,13 @@ a:hover {
   margin: 0 auto;
 }
 
+.inline-image {
+  height: 2em; /* Slightly taller than the text */
+  margin-right: 0.5em; /* Space between image and text */
+  text-decoration: none; /* Remove underline */
+  vertical-align: middle; /* Align image vertically with text */
+}
+
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .button,
@@ -457,6 +512,7 @@ input[type="button"]:focus {
   color: #333;
   border-color: #888;
   outline: 0;
+  background-color: #c2c2c2; /* Light gray background on hover */
 }
 
 .button.button-primary,
@@ -728,7 +784,9 @@ there.
 
 /*
 * Colophon
-* Skeleton V2.0.4
+* Content
+* CommunityScale LLC
+* CSS based on Skeleton V2.0.4
 * Copyright 2014, Dave Gamache
 * www.getskeleton.com
 * Free to use under the MIT license.
