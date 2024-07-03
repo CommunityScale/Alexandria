@@ -78,6 +78,15 @@ Table of contents
   box-sizing: border-box;
 }
 
+.inline-text {
+  display: flex;
+  align-items: center;
+  margin: 0; /* Remove any default margin */
+  padding: 0; /* Remove any default padding */
+  gap: 5px; /* Add space between all elements */
+  white-space: nowrap; /* Prevent line breaks */
+}
+
 /* For devices larger than 400px */
 @media (min-width: 400px) {
   .container {
@@ -416,6 +425,13 @@ a:hover {
   max-width: 100px;
   height: auto;
   margin: 0 auto;
+}
+
+.inline-image {
+  height: 2em; /* Slightly taller than the text */
+  margin-right: 0.5em; /* Space between image and text */
+  text-decoration: none; /* Remove underline */
+  vertical-align: middle; /* Align image vertically with text */
 }
 
 /* Buttons

@@ -48,86 +48,562 @@
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-<!-- Sticky header -->
-<div class="sticky">
+	<!-- Sticky header -->
+	<div class="sticky">
+		<div class="container">
+				<small><div class="title"><b>Alexandria, Virginia Housing Needs Assessment</b> |</div> <a href="#Overview">Overview</a> | <a href="#People">People</a> | <a href="#Place">Place</a> | <a href="#Demand">Demand</a> | <a href="#Results">Results</a></small> 
+		</div>
+	</div>
+
+	<!-- Cover image -->
+
+	<div class="cover">
+		<div class="container" style="margin-top: 0">
+			<h1>Alexandria, Virginia
+			<br>Housing Needs Assessment Dashboard</h1>
+			<p><b>March, 2024</b> data vintage
+			<br>Work in progress by <a href="http://communityscale.io">CommunityScale</a>.</p>
+		</div>
+	</div>
+
 	<div class="container">
-			<small><div class="title"><b>Alexandria, Virginia Housing Needs Assessment</b> |</div> <a href="#Overview">Overview</a> | <a href="#People">People</a> | <a href="#Place">Place</a> | <a href="#Demand">Demand</a> | <a href="#Results">Results</a></small> 
-	</div>
-</div>
-
-<!-- Cover image -->
-
-<div class="cover">
-<div class="container" style="margin-top: 0">
-    <h1>Alexandria, Virginia
-	<br>Housing Needs Assessment Dashboard</h1>
-    <p><b>March, 2024</b> data vintage
-	<br>Work in progress by <a href="http://communityscale.io">CommunityScale</a>.</p>
-    </div>
-</div>
-
-<div class="container">
-    <div class="row">
-      <div class="eight columns" style="margin-top: 20px">
-<P>This housing needs assessment of City of Alexandria, VA. The vintage of the data is March, 2024. The objective of this report is to explore the people, place, and demand for housing in the community and the region, culminating with recommendations for future housing production that balance capturing new growth with closing the local attainability gap.</p>
-      </div>
-      <div class="one-half column" style="margin-top: 20px">
-        
-      </div>
-	</div>
-    <div class="row">
-		<div class="one-fifth column"><a href="#Overview"><img src="images/Overview.png" class="icon" title="Overview"><br><b>Overview</b></a>, introducing the purpose of this report and key findings from the analysis.</div>
-		<div class="one-fifth column"><a href="#People"><img src="images/People.png" class="icon" title="People"><br><b>People</b></a>, profiling characteristics such as income, employment, household structure, and cost burden.</div>
-		<div class="one-fifth column"><a href="#Place"><img src="images/Place.png" class="icon" title="Place"><br><b>Place</b></a>, detailing characteristics such as job locations and existing housing.</div>
-		<div class="one-fifth column"><a href="#Demand"><img src="images/Demand.png" class="icon" title="Demand"><br><b>Demand</b></a>, including how many units are needed in total and what is the optimal mix of unit types and prices.</div>
-		<div class="one-fifth column"><a href="#Results"><img src="images/Results.png" class="icon" title="Results"><br><b>Results</b></a>, summarizing the housing production volume and mix needed to capture growth and close attainability gaps.</div>
-	</div>
-</div>
-<div class="divider">
-	  <div class="container">
-		<div class="two columns">
-			<img src="images/People.png" class="icon" title="People">
-
-
-		</div>
-		<div class="ten columns">
-			<h3 id="People">People</h3>
-			<p><b>Demographic profile</b>. Understanding the demographic composition of a community and changes over time sheds light on likely housing needs today and into the future. Key demographic indicators include racial makeup, presence of children or seniors in a household, prevalence of 1-person households, and population age trends.
-			<p><b>Socioeconomic profile</b>. Analyzing a community’s demographic and housing characteristics by income level provides insight into the range of housing types and costs that might best meet local needs and ability to pay. Key household socioeconomic indicators include incomes, cost burden by tenure (rent/own), household size, number of bedrooms, age, number of children, number of earners, and housing structure type - all broken down by income level for comparison between higher- and lower-income households.
-			<p><b>Employment patterns</b>. Evaluating the local jobs mix and changes over time suggest what income levels and housing values employers within the area are able to support. Key indicators include employment change over time by sector and the geographic distribution of jobs by sector in and around the area.
-		</div>
-	</div>
-</div>
-<div class="container">
-	<div class="row">
-	    <div class="eight columns" style="margin-top: 2%">
-		<iframe title="Household change by AMI group" aria-label="Interactive area chart" id="datawrapper-chart-BXv52" src="https://datawrapper.dwcdn.net/BXv52/7/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; max-height: 400px; border: none;" height="524" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();</script>
-		</div>
-		<div class="four columns" style="margin-top: 2%">
-		<p>Alexandria’s household population has grown steadily since 2010. In terms of relative income levels, most of the growth has been concentrated among households earning at least 100% of AMI. Households earning less than 30% of AMI have experienced some growth as well, with the intervening income brackets largely unchanged over this period.
-		<p>In the Demand section of this report, these recent growth trends will be compared with future projections to estimate household populations and income distributions to 2040.</p>
-		</div>
-	</div>
-	<div class="row">
-		<div class="eight columns" style="margin-top: 2%">
-			<iframe title="Can a household with a median income afford a median home price?" aria-label="Interactive line chart" id="datawrapper-chart-XP9oN" src="https://datawrapper.dwcdn.net/XP9oN/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();</script>
-		</div>
-		<div class="four columns" style="margin-top: 2%">
-			<p>This chart compares the median listing price in Alexandria with the home value affordable to a household earning the median household income. A wider gap means higher barrier to entry for first-time homebuyers and increased risk that an existing resident might be priced out of the community if they choose or need to move to a different house. </p>
-		</div>
-	</div>
-	<div class="row"><hr></div>
 		<div class="row">
-		<p><small>CommunityScale is a pioneering urban planning and spatial data analysis company serving clients across the United States</small>
-		<br>
-		<small>This dashboard is open source. See a mistake? <a href="https://github.com/CommunityScale/Alexandria">Make a pull request</a> on Github.</small>
-		<br>
-		<small>© 2024 CommunityScale - MIT license</small>
-		</p>
+			<div class="eight columns" style="margin-top: 20px">
+				<p>This housing needs assessment of City of Alexandria, VA. The vintage of the data is March, 2024. The objective of this report is to explore the people, place, and demand for housing in the community and the region, culminating with recommendations for future housing production that balance capturing new growth with closing the local attainability gap.</p>
+			</div>
+		</div>    
+	</div>
+
+	<!-- Divider row -->
+	<div class="divider">
+		<div class="container">
+			<div class="Twelve columns">
+				<h2 id="Overview" class="inline-text"><img src="images/Overview.png" class="inline-image" title="Overview">Overview</h2>
+			</div>
 		</div>
-</div>
+	</div>
+
+	<!-- Header row -->
+	<div class="container">
+		<div class="row">
+			<div class="twelve columns" style="margin-top: 2%">
+				<h3>This Housing Needs Assessment will help inform Alexandria's next Housing Master Plan.</h3>				
+			</div>
+		</div>
+
+		<!-- Row with image and text -->
+		<div class="row">
+			<div class="six columns" style="margin-top: 2%">
+				<p><img src="./images/Alexandria place image.PNG" height=auto width=100% title="CommunityScale" alt="CommunityScale"></a></p>
+			</div>
+			<div class="six columns" style="margin-top: 2%">
+				<p>This study profiles the local community's people and housing stock, establishes an approach to meeting projected demand, and recommends the new housing mix best suited to meet local and expected need through 2040.</p>
+				<p>This website version of the study highlights key observations and findings. The Housing Needs Assessment document is also availble in a much more detailed, downloadable pdf format:</p>
+				<p><a href="https://docs.google.com/presentation/d/1M6L7FHEFTFdMPj_-KPiB2Zv_X1yRfzWFQ2eMgrxHZqw/edit?usp=sharing" target="blank"><button>Housing Needs Assessment Report</button></a></p>
+			</div>
+		</div>
+	</div>
+
+	<!-- Header row -->
+	<div class="container">
+		<div class="row">
+			<div class="twelve columns" style="margin-top: 2%">
+				<h3>Study parameters</h3>
+			</div>
+		</div>
+		<div class="row">
+			<div class="eight columns" style="margin-top: 2%">
+				<p><img src="./images/Alexandria study area.PNG" height=auto width=100% title="CommunityScale" alt="CommunityScale"></a></p>
+			</div>
+			<div class="four columns" style="margin-top: 2%">
+				<p>The study covers the entire City of Alexandria along with certain indicators subdivided according to the five subgeographies identified at left.
+				<p>The analysis defines incomes in terms of Area Median Income and organizes households by bands that correspond to local and federal thresholds for housing subsidies, financial assistance, and other programs:</p>
+				<ul>
+					<li>Up to 30% AMI</li>
+					<li>31% to 40% AMI</li>
+					<li>41% to 50% AMI</li>
+					<li>51% to 60% AMI</li>
+					<li>61% to 80% AMI</li>
+					<li>81% to 100% AMI</li>
+					<li>101% to 120% AMI</li>
+					<li>Above 120% AMI</li>
+				</ul>
+			</div>  
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="twelve columns" style="margin-top: 2%">
+				<h3>Summary of findings</h3>
+				<p>In progress...</p>
+			</div>
+		</div>
+	</div>	
+
+	<!-- People Divider row -->
+	<div class="divider">
+		<div class="container">
+			<div class="Twelve columns">
+				<h2 id="People" class="inline-text"><img src="images/Place.png" class="inline-image" title="People">People</h2>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="twelve columns" style="margin-top: 2%">
+				<p>The following section profiles the people of Alexandria, detailing characteristics such as income, employment, household structure, and cost burden. These indicators combine to describe the local population's housing needs and preferences which inform this report's recommended strategies for new housing production to meet demand and fill gaps in affordability and attainability.</p>
+				<h3>Alexandria's population continues to grow rapidly.</h3>
+				<p>Alexandria’s household population has grown steadily since 2010. In terms of relative income levels, most of the growth has been concentrated among households earning at least 100% of AMI. Households earning less than 30% of AMI have experienced some growth as well, with the intervening income brackets largely unchanged over this period.</p>
+				<h5>All income levels have grown, especially the highest income households.</h5>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="six columns" style="margin-top: 2%">
+				<iframe title="" aria-label="Interactive area chart" id="datawrapper-chart-1OBVO" src="https://datawrapper.dwcdn.net/1OBVO/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="381" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+				</script>
+			</div>
+			<div class="six columns" style="margin-top: 2%">
+				<table>
+					<tr>
+						<th>AMI level</th>
+						<th>2010</th>
+						<th>2022</th>
+						<th>2040</th>
+					  </tr>
+					  <tr>
+						<th>Below 30%</th>
+						<td>10,623</td>
+						<td>12,813</td>
+						<td>18,237</td>
+					  </tr>
+					  <tr>
+						<th>31%-40%</th>
+						<td>5,044</td>
+						<td>5,100</td>
+						<td>5,542</td>
+					  </tr>
+					  <tr>
+						<th>41%-50%</th>
+						<td>5,542</td>
+						<td>5,721</td>
+						<td>7,367</td>
+					  </tr>
+					  <tr>
+						<th>51%-60%</th>
+						<td>5,267</td>
+						<td>5,922</td>
+						<td>7,227</td>
+					  </tr>
+					  <tr>
+						<th>61%-80%</th>
+						<td>8,959</td>
+						<td>10,987</td>
+						<td>15,892</td>
+					  </tr>
+					  <tr>
+						<th>81%-100%</th>
+						<td>7,384</td>
+						<td>8,518</td>
+						<td>12,140</td>
+					  </tr>
+					  <tr>
+						<th>101%-120%</th>
+						<td>5,857</td>
+						<td>6,574</td>
+						<td>7,965</td>
+					  </tr>
+					  <tr>
+						<th>Above 120%</th>
+						<td>15,061</td>
+						<td>24,011</td>
+						<td>41,051</td>
+					  </tr>
+				</table>			
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="twelve columns" style="margin-top: 2%">
+				<h3>Alexandria is becoming more diverse as it grows.</h3>
+				<p>These charts break down socioeconomic and demographic indicators by income in terms of AMI level. Demographic trends provide insights into how Alexandria is or is not changing over time and what that means for current and future housing demand. A community’s racial and ethnic composition may be correlated to need regarding affordability and access to capital needed for homeownership. Also, more diverse communities may need more housing options to reflect more diverse preferences.</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="six columns" style="margin-top: 2%">
+				<h5>Non-white households are growing faster than white households.</h5>
+				<p>How to do titles and source? Maybe in small text here?</p>
+				<p>INSERT POPULATION BY RACE CHART</p>
+			</div>
+			<div class="six columns" style="margin-top: 2%">
+				<h5>Hispanic and Latino households are growing twice as fast as other ethnicities.</h5>
+				<p>INSERT POPULATION BY ETHNICITY CHART</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="six columns" style="margin-top: 2%">
+				<h5>The non-English speaking population is growing faster than English-speaking.</h5>
+				<p>INSERT LANGUAGE SPOKEN AT HOME CHART</p>
+			</div>
+			<div class="six columns" style="margin-top: 2%">
+				<h5>Foreign born populations from all continents have grown, with Africa adding the largest number.</h5>
+				<p>INSERT FOREIGN BORN CHART</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="twelve columns" style="margin-top: 2%">
+				<h3>Cost burden is pronounced, especially among renters.</h3>
+				<p>Households are cost burdened when paying more than 30% of their income on housing costs. They are considered severely cost burdened when these costs exceed 50% of their income. For renters, this includes lease rent and utilities. For homeowners, this includes mortgage costs, property taxes, insurance, utilities, and any condo fees.</p>
+				<p>57.3% of Alexandria’s households rent, while 42.7% of Alexandria’s households own their homes (MOE: 1.2). 18,670 (44%) of Alexandria’s renting households are experiencing cost-burden, while 6,629 (21%) home-owning households are cost-burdened. Alexandria households with lower incomes are experiencing cost burden at higher rates than middle- and higher-income households. More than half of both renters and homeowners with incomes up to 60% AMI spend over 30% of their income on housing costs.</p>					
+			</div>
+		</div>
+		<div class="row">
+			<div class="six columns" style="margin-top: 2%">
+				<h5>44% of renting households are cost burdened.</h5>
+				<p>INSERT COST BURDENED RENTERS CHART</p>
+			</div>
+			<div class="six columns" style="margin-top: 2%">
+				<h5>21% of homeowner households are cost burdened.</h5>
+				<p>INSERT COST BURDENED OWNERS CHART</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="divider">
+		<div class="container">
+			<div class="Twelve columns">
+				<h2 id="Place" class="inline-text"><img src="images/Place.png" class="inline-image" title="People">Place</h2>
+			</div>
+		</div>
+	</div>	
+
+	<div class="container">
+		<div class="Twelve columns">
+			<p>	The following section profiles the community spatially and assesses Greenfield’s housing stock and affordability, detailing characteristics such as structure type, bedroom count, and development timeframe as well as household costs and market pricing for local rental and ownership units.</p>
+		</div>
+	</div>		
+
+	<div class="container">
+		<div class="row">
+			<div class="Twelve columns">
+				<h3>Incomes and affordability are unevenly distributed across the city.</h3>
+				<h5>Explore this interactive map to compare neighborhoods in terms of income and other indicators.</h5>
+			</div>
+		</div>
 		
-<!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+		<div class="row">
+			<div class="eight columns">
+				<style>.embed-container {position: relative; padding-bottom: 80%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style>
+				<div class="embed-container">
+					<small><a href="//communityscale.maps.arcgis.com/apps/Embed/index.html?webmap=4fb53c6245b44580a6150c7c9c83282e&extent=-72.8387,42.4886,-72.369,42.7226&zoom=true&scale=true&legendlayers=true&disable_scroll=true&theme=light" style="color:#0000FF;text-align:left" target="_blank">View larger map</a></small>
+					<br><iframe width="500" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Greenfield HNA" src="//communityscale.maps.arcgis.com/apps/Embed/index.html?webmap=4fb53c6245b44580a6150c7c9c83282e&extent=-72.8387,42.4886,-72.369,42.7226&zoom=true&previewImage=false&scale=true&legendlayers=true&disable_scroll=true&theme=light"></iframe>
+				</div>				
+			</div>
+			<div class="four columns">
+				<p>Use the arrow button in the upper left to open a menu and select different layers to map.</p>
+			</div>
+		</div>
+	</div>
+	<br>
+	<div class="container">
+		<div class="row">
+			<div class="Twelve columns">
+				<h3>Greenfield has a significant affordable housing supply.</h3>
+				<h5>15% of Greenfield’s housing units are committed affordable.</h5>
+			</div>
+		</div>
+		<div class="row">
+			<div class="eight columns">
+				<p><img src="./images/subsidized_screengrab.PNG" height=auto width=100% title="CommunityScale" alt="CommunityScale"></a></p>
+			</div>
+			<div class="four columns">
+				<p>The local housing stock includes a mix of committed affordable housing supported by federal programs such as Low Income Housing Tax Credits (LIHTC) and Housing Choice Vouchers. For households with particularly low incomes, these units can represent one of the only housing options available to them.</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="Twelve columns">
+				<h3>Uneven mix of housing options</h3>
+				<h5>Most single-family homes are ownership and most multi-family are rental.</h5>
+			</div>
+		</div>
+		<div class="row">
+			<div class="eight columns">
+				<p><img src="./images/Structure type_screengrab.PNG" height=auto width=100% title="CommunityScale" alt="CommunityScale"></a></p>
+			</div>
+			<div class="four columns">
+				<p>This graph inventories the local housing stock in terms of each unit's structure type, a characteristic defined as the number of units in the building that contains a given unit.</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="Twelve columns">
+				<h5>Most ownership units are larger and most rentals are smaller</h5>
+			</div>
+		</div>
+		<div class="row">
+			<div class="eight columns">
+				<p><img src="./images/bedrooms_screengrab.PNG" height=auto width=100% title="CommunityScale" alt="CommunityScale"></a></p>
+			</div>
+			<div class="four columns">
+				<p>This graph inventories the local housing stock in terms of bedroom count by unit by tenure. The majority of Greenfield’s housing units are two bedroom or larger, especially among ownership units.</p>
+			</div>
+		</div>
+	</div>	
+
+	<div class="container">
+		<div class="row">
+			<div class="twelve columns">
+				<h3>The affordability gap is widening.</h3>
+				<h5>Homeownership is increasingly out of reach.</h5>
+			</div>
+		</div>
+		<div class="row">
+			<div class="eight columns">
+				<p><img src="./images/affordability_screengrab.PNG" height=auto width=100% title="CommunityScale" alt="CommunityScale"></a></p>
+			</div>
+			<div class="four columns">
+				<p>This chart compares the median listing price in Greenfield with the home value affordable to a household earning the median household income. A wider gap means higher barrier to entry for first-time homebuyers and increased risk that an existing resident might be priced out of the community if they choose or need to move to a different house.</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="six columns">
+				<h5>Most current homeowners may not be able to afford current prices.</h5>
+				<p>This chart tracks the typical market value for single family homes and condos over the past several years. The adjacent table translates these values into monthly costs (mortgage + tax and other costs).</p>
+				<p><img src="./images/market value_screengrab.PNG" height=auto width=100% title="CommunityScale" alt="CommunityScale"></a></p>
+			</div>
+			<div class="six columns">
+				<h5>About 45% of Greenfield homeowners pay less than $1,850/mo</h5>
+				<p>This chart summarizes the distribution of costs across all ownership units in the area, most of which last transacted years ago.About 45% of Greenfield homeowners pay below $1,850/mo compared to the $2,213 and $2,763 required to afford a condo and single family on today’s market.</p>
+				<p><img src="./images/owner costs_screengrab.PNG" height=auto width=100% title="CommunityScale" alt="CommunityScale"></a></p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="nine columns">
+				<p>These charts reveal the significant difference between how much most homeowners currently pay per month (right) and it would cost per month to own a home purchased on today’s market (left).</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="six columns">
+				<h5>Today’s average asking rent in Greenfield is about $1,600.</h5>
+				<p>The rents indicated at right compare recent listings in Greenfield with recently built market rate rental housing within an hour drive from Greenfield (13 properties with 10+ units built since 2018). The gap between these contemporary benchmarks and prevailing local rents help explain why developers seem to be passing over Greenfield for the time being. However, this gap may be narrowing, improving the prospects for new construction in Greenfield.</p>
+				<table>
+					<tr>
+						
+						<th>Unit size</th>
+						<th>Greenfield asking rent</th>
+						<th>Recently built developments asking rent</th>
+					</tr>
+					<tr>
+						<td>Studio</td>
+						<td>$878</td>
+						<td>$1,919</td>
+					</tr>
+					<tr>
+						<td>1 bed</td>
+						<td>$1,449</td>
+						<td>$1,804</td>
+					</tr>
+					<tr>
+						<td>2 beds</td>
+						<td>$1,676</td>
+						<td>$2,188</td>
+					</tr>
+					<tr>
+						<td>3 beds</td>
+						<td>$2,013</td>
+						<td>N/A</td>
+					</tr>
+				</table>
+			</div>
+			<div class="six columns">
+				<h5>About 40% of Greenfield renters pay less than $1,600/mo.</h5>
+				<p>The average asking rent should be understood as the typical cost to a household signing a new lease under current conditions. In reality, because this is a single average value, actual asking rents may vary depending on characteristics such as size, location, and property features but they will collectively track along this trendline. The “Current renter costs” total includes newly occupied units along with units that have been occupied for longer (and where rent may have been set at a much lower rate than today’s asking price).</p>
+				<p><img src="./images/owner costs_screengrab.PNG" height=auto width=100% title="CommunityScale" alt="CommunityScale"></a></p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="nine columns">
+				<p>These charts illustrate the  difference between how much many renters currently pay per month (right) and it would cost per month to sign a new lease on today’s market (left). While there are many renters paying comfortably more than current asking prices, a significant portion would likely be unable to afford a new apartment if they needed to relocate within the community.</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="twelve columns">
+				<h3>Shortage of lower-cost and smaller units</h3>
+			</div>
+		</div>
+		<div class="row">
+			<div class="nine columns">
+				<p>Comparing the needs of current residents with the current housing stock reveals potential misalignments between supply and demand.</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="six columns">
+				<h5>Housing needs of current residents</h5>
+				<p>This chart simulates the unit mix today’s local population would choose if all households could move into units that match their likely bedroom preferences and willingness to pay.</p>
+				<p><img src="./images/need_screengrab.PNG" height=auto width=100% title="CommunityScale" alt="CommunityScale"></a></p>
+			</div>
+			<div class="six columns">
+				<h5>Current housing supply and gaps</h5>
+				<p>These charts compare this “need” to the current housing stock. Positive gaps indicate under-supply; negative gaps indicate oversupply.</p>
+				<table>
+					<tr>
+						<th>Monthly cost</th>
+						<th>Need</th>
+						<th>Supply</th>
+						<th style="background-color: #fff2cc;">Gap</th>
+					</tr>
+					<tr>
+						<td>Below $700</td>
+						<td>2252</td>
+						<td>2063</td>
+						<td style="background-color: #fff2cc;">189</td>
+					</tr>
+					<tr>
+						<td>$700-$1,400</td>
+						<td>2285</td>
+						<td>1948</td>
+						<td style="background-color: #fff2cc;">337</td>
+					</tr>
+					<tr>
+						<td>$1,400-$1,850</td>
+						<td>1207</td>
+						<td>1135</td>
+						<td style="background-color: #fff2cc;">72</td>
+					</tr>
+					<tr>
+						<td>$1,850-$2,350</td>
+						<td>703</td>
+						<td>678</td>
+						<td style="background-color: #fff2cc;">25</td>
+					</tr>
+					<tr>
+						<td>$2,350-$2,800</td>
+						<td>506</td>
+						<td>550</td>
+						<td>-44</td>
+					</tr>
+					<tr>
+						<td>Above $2,800</td>
+						<td>1276</td>
+						<td>1855</td>
+						<td>-579</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div class="row">
+			<div class="nine columns">
+				<p>This is an instructive but largely hypothetical analysis due to the scale of the gap and the challenge of delivering new affordable housing in large quantities.</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="twelve columns">
+				<h3>Little new construction in recent decades.</h3>
+			</div>
+		</div>
+		<div class="row">
+			<div class="six columns">
+				<h5>Most of Greenfield’s housing stock was built before 1960.</h5>
+				<p>Nearly three quarters of Greenfield’s housing production took place before 1970 with very little new construction in recent years. This table chronicles the community's development history, indicating decades with relatively more or less construction activity. 2020 or later is approximate as new housing units are completed.</p>
+				<p><img src="./images/year built_screengrab.PNG" height=auto width=100% title="CommunityScale" alt="CommunityScale"></a></p>
+			</div>
+			<div class="six columns">
+				<h5>About 70 units have been permitted over the past decade.</h5>
+				<p>Building permitting history is a proxy for construction activity over time. Greenfield has seen very little new permits during the past decade. While there are some proposed developments on the horizon, none have reached the building permit stage yet.</p>
+				<p><img src="./images/permits_screengrab.PNG" height=auto width=100% title="CommunityScale" alt="CommunityScale"></a></p>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="Twelve columns">
+				<h3>The pace of local housing development is starting to increase.</h3>
+				<h5>There are numerous new projects in the pipeline, especially downtown.</h5>
+			</div>
+		</div>
+		<div class="row">
+			<div class="twelve columns">
+				<p><img src="./images/development pipeline_screengrab.PNG" height=auto width=100% title="CommunityScale" alt="CommunityScale"></a></p>
+				<table>
+					<tr>
+						<th>Project</th>
+						<th>Units</th>
+						<th>Developer</th>
+						<th>City funding</th>
+						<th>Other support</th>
+					</tr>
+					<tr>
+						<td>Wilson’s redevelopment</td>
+						<td>61 apartments</td>
+						<td>Community Builders</td>
+						<td>ARPA and HoDAG</td>
+						<td>Mass Development</td>
+					</tr>
+					<tr>
+						<td>60 Wells Street shelter</td>
+						<td>36 apartments + 30 shelter beds</td>
+						<td>CSO</td>
+						<td>CDGB and CPA</td>
+						<td>EOHLC funding</td>
+					</tr>
+					<tr>
+						<td>156-176 Main Street</td>
+						<td>20-70 apartments (TBD)</td>
+						<td>Tim Grader, Rural Development Inc.</td>
+						<td>CPA</td>
+						<td>Mass Housing Partnership funding</td>
+					</tr>
+					<tr>
+						<td>184 Petty Plain Rd</td>
+						<td>1 single family</td>
+						<td>Habitat for Humanity</td>
+						<td>CPA</td>
+						<td>N/A</td>
+					</tr>
+					<tr>
+						<td>187 Hope St</td>
+						<td>2-3 duplex/triplex</td>
+						<td>Oxbow Design</td>
+						<td>CPA</td>
+						<td>N/A</td>
+					</tr>
+					<tr>
+						<td>71 Montague City Road (Fmr Center School)</td>
+						<td>13 apartments</td>
+						<td>Olive Street Development</td>
+						<td>N/A</td>
+						<td>N/A</td>
+					</tr>
+					<tr>
+						<td>107 Fairview Street</td>
+						<td>6 duplexes</td>
+						<td>N/A</td>
+						<td>N/A</td>
+						<td>N/A</td>
+					</tr>
+					<tr>
+						<th>TOTAL</th>
+						<th>145-199 units or more</th>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
