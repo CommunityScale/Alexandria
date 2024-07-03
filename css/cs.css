@@ -30,8 +30,8 @@ Table of contents
   top: 0;
   background-color: #fff2cc;
   /* Dark background for visibility */
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   margin: 0;
   z-index: 1000;
   /* Ensure it stays on top of other content */
@@ -76,15 +76,6 @@ Table of contents
   width: 100%;
   float: left;
   box-sizing: border-box;
-}
-
-.inline-text {
-  display: flex;
-  align-items: center;
-  margin: 0; /* Remove any default margin */
-  padding: 0; /* Remove any default padding */
-  gap: 5px; /* Add space between all elements */
-  white-space: nowrap; /* Prevent line breaks */
 }
 
 /* For devices larger than 400px */
@@ -473,6 +464,7 @@ input[type="button"]:focus {
   color: #333;
   border-color: #888;
   outline: 0;
+  background-color: #c2c2c2; /* Light gray background on hover */
 }
 
 .button.button-primary,
@@ -744,7 +736,9 @@ there.
 
 /*
 * Colophon
-* Skeleton V2.0.4
+* Content
+* CommunityScale LLC
+* CSS based on Skeleton V2.0.4
 * Copyright 2014, Dave Gamache
 * www.getskeleton.com
 * Free to use under the MIT license.
