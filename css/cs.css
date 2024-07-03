@@ -78,6 +78,72 @@ Table of contents
   box-sizing: border-box;
 }
 
+.inline-text {
+  display: flex;
+  align-items: center;
+  margin: 0; /* Remove any default margin */
+  padding: 0; /* Remove any default padding */
+  gap: 5px; /* Add space between all elements */
+  white-space: nowrap; /* Prevent line breaks */
+}
+
+.small-text {
+  font-size: 1.2rem; /* Smaller than the body font size of 1.5em */
+  line-height: 1.2;
+}
+
+.unresponsive {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  gap: 6px; /* Optional: Adds space between the divs */
+  padding-top: 0px; /* Adds 20px padding to the top */
+  padding-right: 0;
+  padding-bottom: 00px
+  padding-left: 0;
+  box-sizing: border-box;
+}
+
+.side-by-side {
+  flex: 1 1 0;
+  padding: 0px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.content-size {
+  padding-top: 0px; /* Adds 20px padding to the top */
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  box-sizing: border-box;
+  flex: 0 0 auto; /* Does not grow or shrink, only as wide as its content */
+}
+
+.fill-space {
+  padding: 0px;
+  box-sizing: border-box;
+  flex: 1 1 auto; /* Fills the remaining space */
+}
+
+/* styles.css */
+.scroll-container {
+  width: 100%; /* Adjust width as needed */
+  overflow-x: auto; /* Enables horizontal scrolling */
+  white-space: nowrap; /* Prevents content from wrapping to a new line */
+  }
+
+.scroll-content {
+  display: inline-block; /* Keeps content in a single line */
+  width: auto; /* Example width to show scrolling, adjust as needed */
+}
+
+table {
+  width: auto; /* Ensures the table takes the width of its content */
+  border-collapse: collapse; /* Ensures table borders collapse to remove extra space */
+}
+
+
 /* For devices larger than 400px */
 @media (min-width: 400px) {
   .container {
